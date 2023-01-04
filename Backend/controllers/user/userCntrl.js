@@ -321,7 +321,7 @@ exports.generateVerificationMail = expressAsyncHandler(async (req, res) => {
     await user.save();
 
     //Build your message
-    const resetURL = `${req.protocol}://https://strong-liger-f94f9c.netlify.app/verify-account/${verificationToken}`;
+    const resetURL = `https://magnificent-pothos-b51811.netlify.app/verify-account/${verificationToken}`;
 
     const message = `Your account verification link is, Verify within 10 minutes, :- \n\n ${resetURL} \n\n If you have not requested, Then, Please ignore`;
 
@@ -375,7 +375,7 @@ exports.resetPasswordToken = expressAsyncHandler(async (req, res) => {
     await user.save();
 
     //Build your message
-    const resetURL = `${req.protocol}://https://strong-liger-f94f9c.netlify.app/reset-password/${token}`;
+    const resetURL = `https://magnificent-pothos-b51811.netlify.app/verify-account/${token}`;
 
     const message = `Your reset Password link is, :- \n\n ${resetURL} \n\n If you have not requested, Then, Please ignore \n Link will expire in 10 minutes`;
 
