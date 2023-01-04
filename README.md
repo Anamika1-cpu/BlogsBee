@@ -68,3 +68,55 @@ SMPT_SERVICE = "gmail"
 
 ![Logo](https://res.cloudinary.com/dcua2wckz/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1672762999/Blogs_Bee_vh2z1m.jpg)
 
+
+## Run Locally (Backend)
+
+Clone the project
+
+```bash
+  git clone https://github.com/Anamika1-cpu/BlogsBee
+```
+
+Go to the project directory
+
+```bash
+  cd backend
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npx nodemon
+```
+
+
+## Run Locally (Frontend)
+
+Clone the project
+
+```bash
+  git clone https://github.com/Anamika1-cpu/BlogsBee
+```
+
+Go to the project directory
+
+```bash
+  cd frontend
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
