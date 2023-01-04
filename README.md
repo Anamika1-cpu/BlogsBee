@@ -1,6 +1,8 @@
 
 # BlogsBee
 
+![Logo](https://res.cloudinary.com/dcua2wckz/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1672762999/Blogs_Bee_vh2z1m.jpg)
+
 BlogsBee is a web application  
 
 • A BLOG web application in which there are 2 panels i.e Admin Panel and User Panel.
@@ -65,8 +67,6 @@ SMPT_SERVICE = "gmail"
 
 ![App Screenshot](https://res.cloudinary.com/dcua2wckz/image/upload/v1672822614/page5_pkwjit.jpg)
 
-
-![Logo](https://res.cloudinary.com/dcua2wckz/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1672762999/Blogs_Bee_vh2z1m.jpg)
 
 
 ## Run Locally (Backend)
