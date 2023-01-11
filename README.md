@@ -88,6 +88,14 @@ Install dependencies
 ```bash
   npm install
 ```
+Here, you have to replace the value of resetURL from 2 controllers (i.e.,resetPasswordToken and generateVerificationMail ) in controllers/user/userCntrl.js
+```bash
+    const resetURL = `https://localhost:3000/${verificationToken}`;
+    //generateVerificationMail
+    const resetURL = `https://localhost:3000/${token}`;
+    //resetPasswordToken
+```
+
 
 Start the server
 
@@ -115,6 +123,11 @@ Install dependencies
 ```bash
   npm install
 ```
+
+Change the url from src/utils/baseUrl
+
+```bash
+export const baseUrl = "http://localhost:5000";
 
 Start the server
 
