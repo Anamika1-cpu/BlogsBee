@@ -128,6 +128,7 @@ Change the url from src/utils/baseUrl
 
 ```bash
 export const baseUrl = "http://localhost:5000";
+```
 
 Start the server
 
