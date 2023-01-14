@@ -32,7 +32,7 @@ which user can select while creating post.
 
 
 ## 🛠 Skills
-MongoDB, ExpressJS, ReactJS, NodeJS, TailwindCSS JWT
+MongoDB, ExpressJS, ReactJS, NodeJS, TailwindCSS, JWT
 
 
 ## Environment Variables
