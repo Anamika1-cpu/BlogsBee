@@ -94,6 +94,7 @@ Here, you have to replace the value of resetURL from 2 controllers (i.e.,resetPa
     //generateVerificationMail
     const resetURL = `https://localhost:3000/${token}`;
     //resetPasswordToken
+    
 ```
 
 
