@@ -90,10 +90,12 @@ Install dependencies
 ```
 Here, you have to replace the value of resetURL from 2 controllers (i.e.,resetPasswordToken and generateVerificationMail ) in controllers/user/userCntrl.js
 ```bash
-    const resetURL = `https://localhost:3000/${verificationToken}`;
     //generateVerificationMail
-    const resetURL = `https://localhost:3000/${token}`;
+    const resetURL = `https://localhost:3000/${verificationToken}`;
+    
     //resetPasswordToken
+    const resetURL = `https://localhost:3000/${token}`;
+    
     
 ```
 
