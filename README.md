@@ -1,9 +1,12 @@
-
+<div align="center">
+  
 # BlogsBee
 
 ![Logo](https://res.cloudinary.com/dcua2wckz/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1672762999/Blogs_Bee_vh2z1m.jpg)
 
-BlogsBee is a web application  
+ **BlogsBee is a web application**
+ 
+</div>
 
 • A BLOG web application in which there are 2 panels i.e Admin Panel and User Panel.
 
@@ -16,23 +19,22 @@ follow and unfollow other user and like dislike other user’s post.
 which user can select while creating post.
 
 • Admin can block any user, if admin will find out the user’s unwanted behaviour
+
 ## Tech Stack
 
-**Client:** React, Redux, TailwindCSS
+- **Client:** React, Redux, TailwindCSS
 
-**Server:** Node, Express
+- **Server:** Node, Express
 
-**Database:** MongoDB
-
-
-
-## Author
-
-- [@Anamika](https://github.com/Anamika1-cpu)
-
+- **Database:** MongoDB
 
 ## 🛠 Skills
-MongoDB, ExpressJS, ReactJS, NodeJS, TailwindCSS, JWT
+- MongoDB
+- ExpressJS 
+- ReactJS 
+- NodeJS 
+- TailwindCSS
+- JWT
 
 
 ## Environment Variables
@@ -56,7 +58,7 @@ SMPT_MAIL
 SMPT_PASSWORD 
 
 SMPT_SERVICE = "gmail"
-## Screenshots
+## BlogsBee in Action
 ![App Screenshot](https://res.cloudinary.com/dcua2wckz/image/upload/v1672822715/pag1_wict89.jpg)
 
 ![App Screenshot](https://res.cloudinary.com/dcua2wckz/image/upload/v1672822707/page2_hhgzvd.jpg)
@@ -145,7 +147,24 @@ Start the server
 - Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes that are included in your commits.
 
 ## How to make a Pull Request?
-- Take a look at (Pull request guide)[.github/Pull_request_guide.md]
+- Take a look at [Pull request guide](.github/Pull_request_guide.md)
+
+##  Project Admin
+
+<table>
+	<tr>
+		<td align="center">
+			<a href="https://github.com/Anamika1-cpu">
+				<img src="https://avatars.githubusercontent.com/u/65862556?v=4" width="100px" alt="" />
+				<br /> <sub><b>Anamika1-cpu</b></sub>
+			</a>
+			<br /> <a href="https://github.com/Anamika1-cpu"> 
+		👑 Admin
+	    </a>
+		</td>
+	</tr>
+</table>
+
 
 ## Miscellaneous
 Do consider looking at other paradigms of this documentation
