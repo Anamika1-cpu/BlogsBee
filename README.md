@@ -39,25 +39,13 @@ which user can select while creating post.
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+_To run this project, you will need to add the following environment variables to your .env file_
 
-MONGODB_URI 
+- Take a look at [Environment file](./env.md) and add it to your machine accordingly.
+ 
+<br>
 
-JWT_TOKEN_EXPIRE = "10d"
 
-JWT_KEY
-
-CLOUDINARY_CLOUD
-
-CLOUDINARY_API_KEY 
-
-CLOUDINARY_SECRET_KEY 
-
-SMPT_MAIL 
-
-SMPT_PASSWORD 
-
-SMPT_SERVICE = "gmail"
 ## BlogsBee in Action
 ![App Screenshot](https://res.cloudinary.com/dcua2wckz/image/upload/v1672822715/pag1_wict89.jpg)
 
