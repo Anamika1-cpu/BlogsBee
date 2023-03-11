@@ -158,4 +158,4 @@ Start the server
 Do consider looking at other paradigms of this documentation
   - [License used](/LICENSE.md)
   - [Code Of Conduct](/.github/Code_of_Conduct.md)
-  - [How to contribute?](/.github/CONTRIBUTING.md)
+  - [How to contribute?](.github/Pull_request_guide.md)
