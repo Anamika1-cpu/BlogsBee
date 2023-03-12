@@ -1,9 +1,12 @@
-
+<div align="center">
+  
 # BlogsBee
 
 ![Logo](https://res.cloudinary.com/dcua2wckz/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1672762999/Blogs_Bee_vh2z1m.jpg)
 
-BlogsBee is a web application  
+ **BlogsBee is a web application**
+ 
+</div>
 
 • A BLOG web application in which there are 2 panels i.e Admin Panel and User Panel.
 
@@ -16,47 +19,34 @@ follow and unfollow other user and like dislike other user’s post.
 which user can select while creating post.
 
 • Admin can block any user, if admin will find out the user’s unwanted behaviour
+
 ## Tech Stack
 
-**Client:** React, Redux, TailwindCSS
+- **Client:** React, Redux, TailwindCSS
 
-**Server:** Node, Express
+- **Server:** Node, Express
 
-**Database:** MongoDB
-
-
-
-## Author
-
-- [@Anamika](https://github.com/Anamika1-cpu)
-
+- **Database:** MongoDB
 
 ## 🛠 Skills
-MongoDB, ExpressJS, ReactJS, NodeJS, TailwindCSS, JWT
+- MongoDB
+- ExpressJS 
+- ReactJS 
+- NodeJS 
+- TailwindCSS
+- JWT
 
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+_To run this project, you will need to add the following environment variables to your .env file_
 
-MONGODB_URI 
+- Take a look at [Environment file](./env.md) and add it to your machine accordingly.
+ 
+<br>
 
-JWT_TOKEN_EXPIRE = "10d"
 
-JWT_KEY
-
-CLOUDINARY_CLOUD
-
-CLOUDINARY_API_KEY 
-
-CLOUDINARY_SECRET_KEY 
-
-SMPT_MAIL 
-
-SMPT_PASSWORD 
-
-SMPT_SERVICE = "gmail"
-## Screenshots
+## BlogsBee in Action
 ![App Screenshot](https://res.cloudinary.com/dcua2wckz/image/upload/v1672822715/pag1_wict89.jpg)
 
 ![App Screenshot](https://res.cloudinary.com/dcua2wckz/image/upload/v1672822707/page2_hhgzvd.jpg)
@@ -138,84 +128,34 @@ Start the server
 ```bash
   npm start
 ```
-## Contributing
+## 💥 How to Contribute to Blogsbee?
 - Take a look at the existing [Issues](https://github.com/Anamika1-cpu/BlogsBee/issues) 
 - Fork the Repo create a branch for any issue that you are working on and commit your work.
 - Create a ** [Pull Request](https://github.com/Anamika1-cpu/BlogsBee/pulls), which will be promptly reviewed and given suggestions for improvements by the community.
 - Add screenshots or screen captures to your Pull Request to help us understand the effects of the changes that are included in your commits.
 
 ## How to make a Pull Request?
+- Take a look at [Pull request guide](.github/Pull_request_guide.md)
 
-**1.** Start by forking the [**BlogsBee**](https://github.com/Anamika1-cpu/BlogsBee) repository. Click on the <a href="https://github.com/Anamika1-cpu/BlogsBee/fork"><img src="https://i.imgur.com/G4z1kEe.png" height="21" width="21"></a> symbol at the top right corner.
+##  Project Admin
 
-**2.** Clone your forked repository:
+<table>
+	<tr>
+		<td align="center">
+			<a href="https://github.com/Anamika1-cpu">
+				<img src="https://avatars.githubusercontent.com/u/65862556?v=4" width="100px" alt="" />
+				<br /> <sub><b>Anamika1-cpu</b></sub>
+			</a>
+			<br /> <a href="https://github.com/Anamika1-cpu"> 
+		👑 Admin
+	    </a>
+		</td>
+	</tr>
+</table>
 
-```bash
-git clone https://github.com/<your-github-username>/BlogsBee.git
-```
 
-**3.** Navigate to the new project directory:
-
-```bash
-cd BlogsBee
-```
-
-**4.** Set upstream command:
-
-```bash
-git remote add upstream https://github.com/Anamika1-cpu/BlogsBee.git
-```
-
-**5.** Create a new branch:
-
-```bash
-git checkout -b YourBranchName
-```
-<i>or</i>
-```bash
-git branch YourBranchName
-git switch YourBranchName
-``` 
-
-**6.** Sync your fork or local repository with the origin repository:
-
-- In your forked repository click on "Fetch upstream"
-- Click "Fetch and merge".
-
-### Alternatively, Git CLI way to Sync forked repository with origin repository:
-
-```bash
-git fetch upstream
-```
-
-```bash
-git merge upstream/main
-```
-
-### [Github Docs](https://docs.github.com/en/github/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github) for Syncing
-
-**7.** Make your changes to the source code.
-
-**8.** Stage your changes and commit:
-
-⚠️ **Make sure** not to commit `package.json` or `package-lock.json` file
-
-⚠️ **Make sure** not to run the commands ```git add .``` or ```git add *```. Instead, stage your changes for each file/folder
-
-```bash
-git add file/folder
-```
-
-```bash
-git commit -m "<your_commit_message>"
-```
-
-**9.** Push your local commits to the remote repository:
-
-```bash
-git push origin YourBranchName
-```
-
-**10.** Create a [Pull Request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request)!
-
-**11.** **Congratulations!** You've made your first contribution! 🙌🏼
+## Miscellaneous
+Do consider looking at other paradigms of this documentation
+  - [License used](/LICENSE.md)
+  - [Code Of Conduct](/.github/Code_of_Conduct.md)
+  - [How to contribute?](.github/Pull_request_guide.md)
